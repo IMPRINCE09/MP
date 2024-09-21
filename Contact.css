@@ -1,0 +1,77 @@
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+section{
+  width: 100%;
+  overflow: hidden;
+}
+.top_section{
+  height: 24px;
+  background-color: rgb(1, 105, 1);
+  display: flex;
+  justify-content: space-between;
+}
+.section_contact{
+    background-image: url("https://t3.ftcdn.net/jpg/01/71/07/86/240_F_171078663_F82yHJjvDiwFFYdmCOOGSboeVSiAC0tI.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+    width: 100%;
+}
+.section_card{
+    /* background-color: rgb(255, 244, 244,0.5); */
+}
+.contact-sec {
+    width: 100%;
+    /* height: 50vh; */
+    
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 1%;
+  }
+
+
+  .get-in-touch-sec {
+    width: 540px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .form-sec {
+    width: 600px;
+    padding: 15px;
+  }
+
+
+  .footer_scetion {
+    background-color: rgb(176, 109, 21);
+    position: relative;
+    bottom: 0;
+    width: 100%;
+  
+  }
+  
+  
+  .a_link{
+  
+   text-decoration: none;
+   
+    color: white;
+  }
+  li{
+  list-style: none;
+  }
+  
+  .nav_back{
+    position: relative;
+    z-index: 10;
+    background-color: white;
+   
+  }

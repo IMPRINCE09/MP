@@ -1,0 +1,233 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    
+  }
+  .top_section{
+    height: 24px;
+    background-color: rgb(1, 105, 1);
+    display: flex;
+    justify-content: space-between;
+}
+  
+  section
+  {
+   overflow: hidden;
+   width: 100%;
+  }
+ 
+
+   .hero{
+    background-color: aliceblue;
+    width: 100%;
+    position: relative;
+
+  }
+
+
+.infromation_page{
+    display: flex;
+    justify-content: center;
+   
+    position: relative;
+
+}
+  .about_image{
+   
+   width: 94%;
+  }
+
+  .about_image img{
+    width: 100%;
+    height: 100%;
+  }
+  .info_text{
+    position: absolute;
+    top: 40%;
+    left: 10%;
+    bottom: 0;
+    top: 0;
+    right: 3%;
+    left: 3%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.4);
+  }
+  .Square-one {
+    height: 90px;
+    width: 90px;
+    position: relative;
+    background-color: orange;
+    z-index: 1;
+    border-radius: 8px;
+  }
+  .Square-two {
+    height: 60px;
+    width: 60px;
+    position: absolute;
+    background-color: orange;
+    top: 0px;
+    left: 80px;
+    z-index: 2;
+    border: 3px solid white;
+    border-radius: 8px;
+  }
+  .about-icon a {
+    font-size: 30px;
+    color: orange;
+    padding: 20px;
+  }
+  .about-icon a:hover {
+    color: red;
+  }
+  .text-sec {
+    padding: 20px;
+  }
+  .text-sec h2 {
+    font-size: 45px;
+    font-weight: bold;
+  }
+  .text-sec span {
+    color: rgb(255, 153, 0);
+  }
+  
+  .lead {
+    font-size: 30px;
+    font-weight: bold;
+  }
+  /* card section */
+      
+      .card{
+        box-shadow:  0 4px 8px 0
+    rgba(0, 0, 0, 0.2),0 6px 20px 0 
+   rgba(0,0,0,0.19) ;
+  
+      }
+     .img_pos{
+        position: relative;
+        border-radius: 8px;
+        transition: transform .7s ease-in-out;
+     }
+     .img_pos:hover{
+        transform: scale(1.05);
+     }
+     .card_title{
+        position: absolute;
+        bottom: 10px;
+        display: none;
+        background-color: rgba(235, 232, 232, 0.525);
+        text-align: center;
+        width: 200px;
+        font-weight: 700;
+        left: 35px;
+        color: rgb(21, 2, 63);
+
+     }
+     .img_pos:hover +.card_title{
+        display: block;
+     }
+  .why-heading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 45px;
+    font-weight: bold;
+  }
+  .contact-sec {
+    width: 100%;
+   
+    background-image: url("https://t3.ftcdn.net/jpg/01/71/07/86/240_F_171078663_F82yHJjvDiwFFYdmCOOGSboeVSiAC0tI.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .get-in-touch-sec {
+    width: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .form-sec {
+    width: 650px;
+    padding: 15px;
+  }
+  
+  .footer-sec
+  {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+  
+  }
+  .footer-links ul
+  {
+      list-style-type: none;
+  }
+  .footer-links a:hover{
+      color: orange;
+  
+  }
+  .footer-links ul li a
+  {
+   padding: 10px;
+   text-decoration: none;
+   margin: 10px;
+   font-size: 23px;
+   color: white;
+  
+  }
+  
+ 
+  .social-links a:hover
+  {
+      color: orange;
+  }
+  .Copyright-div p{
+      display: flex;
+      align-items: center;
+     justify-content: center;
+     background-color: black;
+     color: white;
+  
+  }
+  @media only screen and(max-width:500px)
+  {
+      .top-image-sec .content {
+          color: white;
+          width: 80%;
+          background-color: rgba(0, 0, 0, 0.3);
+          /* padding: 20px; */
+          position: absolute;
+          /* margin-top: 100px;
+          margin-left: 150px; */
+        }
+  }
+
+
+  /* footer */
+.footer_scetion {
+  background-color: rgb(176, 109, 21);
+  position: relative;
+  bottom: 0;
+  width: 100%;
+
+}
+
+
+.a_link{
+
+ text-decoration: none;
+ color: white;
+  
+}
+li{
+list-style: none;
+color: white;
+}
+
+  
